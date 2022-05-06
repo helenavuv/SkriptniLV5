@@ -1,0 +1,24 @@
+h3
+{
+	margin-bottom:35px;
+}input
+{
+	padding: 7px;
+	margin-left: 10px;
+	width: 200px;
+}
+
+select
+{
+	padding: 7px;
+	margin-left: 10px;
+	width: 220px;
+}
+button
+{
+	border: 1px solid white;
+	background-color: lightgreen;
+	padding: 10px 20px;
+	color: black;
+	cursor: pointer;
+}

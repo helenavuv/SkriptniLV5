@@ -1,0 +1,13 @@
+
+#tabs>input,i
+{
+    margin: 20px;
+
+}
+ul
+{
+    list-style: none;
+}
+.strike{
+  text-decoration: line-through;
+}

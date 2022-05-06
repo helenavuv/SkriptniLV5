@@ -1,0 +1,49 @@
+.list_container {
+    margin: 0px;
+    padding: 0px;
+    height: 620px;
+    width: 100%;
+    position: relative;
+}
+.list_item {
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    width: 98%;
+    position: absolute;
+    z-index: 0;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 1%;
+    left: 0px;
+    border: 1px solid #999;
+    margin: 0px;
+    -webkit-user-select: none;
+}
+.list_item.selected {
+    background-color: #DDD;
+    opacity: 0.8;
+    z-index: 1000;
+    cursor: pointer;
+}
+.list_item:active, .list_item:hover {
+    cursor: pointer;
+}
+#jabuka{
+    background-color: red;
+}
+#kruska{
+    background-color: #d1e231;
+}
+#ananas{
+    background-color:  #563c0d;
+    color: white;
+}
+#banana{
+    background-color: yellow;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mjenjacnica</title>
+    <script src="assets/plugins/jquery/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<h3>Mjenjačnica</h3>
+	<input type="number" name="pretvori" id="pretvori">
+	<select name="valute" id="valute1">
+		<option value="kuna">kuna</option>
+		<option value="euro">euro</option>
+		<option value="dolar">američki dolar</option>
+		<option value="forinta">mađarska forinta</option>
+		<option value="marka">konvertibilna marka</option>
+	</select>
+	<br/><br/>
+	<input type="number" name="pretvori" id="rjesenje" readonly>
+	<select name="valute" id="valute2">
+		<option value="kuna">kuna</option>
+		<option value="euro">euro</option>
+		<option value="dolar">američki dolar</option>
+		<option value="forinta">mađarska forinta</option>
+		<option value="marka">konvertibilna marka</option>
+	</select>
+	<br/><br/>
+	<button type='button'>Pretvori</button>
+
+    <script src="js/konvert.js"></script>
+</body>
+</html>
